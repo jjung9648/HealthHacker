@@ -43,3 +43,16 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# virtual environment setting
+myenv
+
+# data, model, and encoder
+/model/label_encoderBlood.pkl
+/model/label_encoderBMI.pkl
+/model/label_encoderGender.pkl
+/model/label_encoderOccupation.pkl
+/model/label_encoderSleepDisorder.pkl
+/model/linear_model.pkl
+/data/split_data.pkl
